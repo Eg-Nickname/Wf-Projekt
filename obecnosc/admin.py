@@ -7,7 +7,11 @@ class UczniowieAdmin(admin.ModelAdmin):
     readonly_fields = ()
     # asdas
     # asdsadas
+<<<<<<< HEAD
     #Test pobrania
+=======
+    #safasfasf
+>>>>>>> 3757f716cefcc4980e468ca807a30a779035130d
 
     filter_horizontal = ()
     list_filter = ()
