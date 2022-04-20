@@ -8,9 +8,14 @@ from account.views import (
     account_viev,
     change_password,
 )
+from obecnosc.views import (
+    obecnosc_view,
+)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('obecnosc/', obecnosc_view, name="obecnosc_view"),
     path('register/', registration_viev, name="register"),
     path('logout/', logout_viev, name="logout"),
     path('login/', login_viev, name="login"),
