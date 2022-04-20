@@ -1,0 +1,107 @@
+[
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 1,
+          "nazwisko_imie": "Kapusta Leopold",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 2,
+          "nazwisko_imie": "Woźniak Alojzy",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 3,
+          "nazwisko_imie": "Zieliński Mariusz",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 4,
+          "nazwisko_imie": "Borkowski Bronisław",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 5,
+          "nazwisko_imie": "Tomaszewski Roman",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 6,
+          "nazwisko_imie": "Bąk Florian ",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 7,
+          "nazwisko_imie": "Makowski Alek",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 8,
+          "nazwisko_imie": "Jakubowski Kajetan",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 9,
+          "nazwisko_imie": "Malinowski Konstanty",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 10,
+          "nazwisko_imie": "Lewandowski Edward",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 11,
+          "nazwisko_imie": "Pawlak Bolesław ",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 12,
+          "nazwisko_imie": "Cieślak Dawid",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 13,
+          "nazwisko_imie": "Dąbrowski Konstanty",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 14,
+          "nazwisko_imie": "Wójcik Aleksander",
+          "klasa": "1a_gr1"
+        }         
+    },
+    { "model": "obecnosc.Uczniowie",
+        "fields":{
+          "numer_w_dzienniku": 15,
+          "nazwisko_imie": "Kwiatkowski Mikołaj ",
+          "klasa": "1a_gr1"
+        }         
+    }
+]
