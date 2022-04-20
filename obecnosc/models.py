@@ -1,3 +1,4 @@
+from pyexpat import model
 from django.db import models
 
 
@@ -15,4 +16,17 @@ class Uczniowie(models.Model):
     klasa             = models.CharField(verbose_name="Klasa", max_length=64, unique=False, choices=KLASY)
 
     def __str__(self):
-        return str(self.id_ucznia)
+        return str(self.nazwisko_imie)
+
+class Obecnosci(models.Model):
+    Statusy = (
+        ('OB', 'Obecny'),
+        ('ZW', 'Zwolniony'),
+        ('BS', 'Brak Stroju'),
+        ('NB', 'Nieobecny'),
+    )
+
+    id_obecnosci = models.BigAutoField(verbose_name="Id obecnosci", primary_key=True)
+    uczen = models.ForeignKey(Uczniowie, null=True, on_delete=models.SET_NULL, related_name='Uczen', verbose_name="Uczeń")
+    status = models.CharField(verbose_name="Status", max_length=64, unique=False, choices=Statusy)
+    data = models.DateField(verbose_name='Data sprawdzania', auto_now_add=True)
