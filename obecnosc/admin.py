@@ -5,6 +5,8 @@ class UczniowieAdmin(admin.ModelAdmin):
     list_display = ('id_ucznia', 'numer_w_dzienniku', 'nazwisko_imie', 'klasa')
     search_fields = ('id_ucznia', 'numer_w_dzienniku', 'nazwisko_imie', 'klasa')
     readonly_fields = ()
+    # asdas
+    # asdsadas
 
     filter_horizontal = ()
     list_filter = ()
