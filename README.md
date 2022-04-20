@@ -22,11 +22,10 @@ Link Projektu: [https://github.com/Eg-Nickname/Wf-Projekt](https://github.com/Eg
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Eg-Nickname/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/Eg-Nickname/cpp-learning/graphs/contributors
+[contributors-url]: https://github.com/Eg-Nickname/Wf-Projekt/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Eg-Nickname/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/Eg-Nickname/cpp-learning/network/members
+[forks-url]: https://github.com/Eg-Nickname/Wf-Projekt/network/members
 [stars-shield]: https://img.shields.io/github/stars/Eg-Nickname/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/Eg-Nickname/cpp-learning/stargazers
+[stars-url]: https://github.com/Eg-Nickname/Wf-Projekt/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Eg-Nickname/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/Eg-Nickname/cpp-learning/issues
-[license-shield]: https://img.shields.io/github/license/Eg-Nickname/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/Eg-Nickname/Wf-Projekt/issues
