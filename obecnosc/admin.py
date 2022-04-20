@@ -7,6 +7,7 @@ class UczniowieAdmin(admin.ModelAdmin):
     readonly_fields = ()
     # asdas
     # asdsadas
+    #safasfasf
 
     filter_horizontal = ()
     list_filter = ()
