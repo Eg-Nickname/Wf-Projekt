@@ -1,6 +1,10 @@
 <h1>Dziennik</h1>
+<form method ="POST"> {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="kliknij"/>
+</form>
 {% for uczen in uczniowie %}
-    {{uczen.nazwisko_imie}}
+    {{uczen}}
     {{uczen.numer_w_dzienniku}}
     <br>
 {% endfor %}
