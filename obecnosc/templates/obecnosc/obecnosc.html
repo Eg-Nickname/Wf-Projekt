@@ -1,2 +1,6 @@
-abcdef
-{{ request.user }}
+<h1>Dziennik</h1>
+{% for uczen in uczniowie %}
+    {{uczen.nazwisko_imie}}
+    {{uczen.numer_w_dzienniku}}
+    <br>
+{% endfor %}
