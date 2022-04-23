@@ -1,2 +1,21 @@
-abcdef
-{{ request.user }}
+<h1>Dziennik</h1>
+<form method ="POST"> {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="kliknij"/>
+</form>
+<form action = "." method ="POST" > {% csrf_token %}
+{% for uczen in uczniowie %}
+    {{uczen}}
+    {{uczen.numer_w_dzienniku}}
+    <input type="radio" id="OB" name="{{uczen.id_ucznia}}" value="OB" checked>
+    <label for ="OB">OB</label>
+    <input type="radio" id="ZW" name="{{uczen.id_ucznia}}" value="ZW">
+    <label for ="ZW">ZW</label>
+    <input type="radio" id="BS" name="{{uczen.id_ucznia}}" value="BS">
+    <label for ="BS">BS</label>
+    <input type="radio" id="NB" name="{{uczen.id_ucznia}}" value="NB">
+    <label for ="NP">NB</label>
+    <br>
+{% endfor %}
+<input type="submit" value="kliknij"/>
+</form>
