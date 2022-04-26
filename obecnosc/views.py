@@ -1,3 +1,4 @@
+from multiprocessing import context
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.shortcuts import render, redirect
@@ -26,3 +27,18 @@ def obecnosc_view(request):
         'form' : form
     }
     return render(request, 'obecnosc/obecnosc.html', context)
+def dziennik_view(request):
+    context = {}
+    form = ObecnoscForm(request.POST or None)
+    if form.is_valid():
+        obj2 = Uczniowie.objects.filter(klasa=form.data['klasa'])
+        obj = Obecnosci.objects.filter(uczen__klasa=form.data['klasa'])
+    else:
+        obj2 = Uczniowie.objects.none()
+        obj = Obecnosci.objects.none()
+    context={
+        'obecnosci' : obj,
+        'uczniowie' : obj2,
+        'form' : form
+    }
+    return render(request, 'obecnosc/dziennik.html', context)
